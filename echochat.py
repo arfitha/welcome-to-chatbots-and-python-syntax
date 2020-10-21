@@ -1,0 +1,6 @@
+print("welcome to my first chatbot")
+print("I will repeat what you say!!")
+name=input("What is your name?")
+print("Hii "+ name.capitalize())
+stuff_to_echo=input("Enter something for me to repeat : ")
+print("You said: " + stuff_to_echo)
