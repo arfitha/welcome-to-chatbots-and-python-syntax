@@ -22,12 +22,12 @@ print( cost_of_drone(1.5))
 def shipping(weight):
   if cost_of_drone(weight)<cost_of_ground_shipping(weight) and cost_of_drone(weight)<cost_of_premium_ground_shipping:
     print("Drone shipping is cheap")
-    print("total shipping charge is "+str(cost_of_drone(weight)))
+    print("total shipping charge is $"+str(cost_of_drone(weight)))
   elif cost_of_ground_shipping(weight)<cost_of_drone(weight) and cost_of_ground_shipping(weight) < cost_of_premium_ground_shipping:
     print("Ground shipping is cheap")
-    print("total shipping charge is "+str(cost_of_ground_shipping(weight)))
+    print("total shipping charge is $"+str(cost_of_ground_shipping(weight)))
   else:
-    print("Premium ground shipping is cheap and will cost "+ str(cost_of_premium_ground_shipping))
+    print("Premium ground shipping is cheap and will cost $"+ str(cost_of_premium_ground_shipping))
 print(shipping(4.8))
 print(shipping(41.5))
 
