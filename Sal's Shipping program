@@ -30,3 +30,4 @@ def shipping(weight):
     print("Premium ground shipping is cheap and will cost "+ str(cost_of_premium_ground_shipping))
 print(shipping(4.8))
 print(shipping(41.5))
+
